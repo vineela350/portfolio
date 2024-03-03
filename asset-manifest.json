@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b1e27740.css",
+    "main.js": "/portfolio/static/js/main.1df7afc9.js",
+    "static/media/potrait.JPG": "/portfolio/static/media/potrait.3d62fb428c06de74ceea.JPG",
+    "static/media/quora.png": "/portfolio/static/media/quora.af7e78dba446c5164e56.png",
+    "static/media/myPicture2.jpg": "/portfolio/static/media/myPicture2.3025abe41892aa9f9432.jpg",
+    "static/media/my_picture.jpg": "/portfolio/static/media/my_picture.52bbc3868630b9befbaf.jpg",
+    "static/media/itemDashboard.jpg": "/portfolio/static/media/itemDashboard.2d7e2f6b2348e51b5fa2.jpg",
+    "static/media/hungerHelp.jpeg": "/portfolio/static/media/hungerHelp.c254f5946569998ec5bc.jpeg",
+    "static/media/SyracuseLogo.png": "/portfolio/static/media/SyracuseLogo.320c47db06942896d8a3.png",
+    "static/media/osmaniaLogo.jpeg": "/portfolio/static/media/osmaniaLogo.5abf8fdee5f69338ac71.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.b1e27740.css.map": "/portfolio/static/css/main.b1e27740.css.map",
+    "main.1df7afc9.js.map": "/portfolio/static/js/main.1df7afc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1e27740.css",
+    "static/js/main.1df7afc9.js"
+  ]
+}
