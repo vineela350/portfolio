@@ -1,0 +1,46 @@
+/* WorkExperience.css */
+.work-experience-container {
+    /* Styles for the container */
+  }
+  
+  .experience-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .experience-logo {
+    width: 100px; /* Adjust as needed */
+    margin-right: 20px;
+  }
+  
+  .experience-content h2 {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+  }
+
+  .experience-content ul li {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .job-title {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .company-location {
+    font-weight: normal;
+    color: #555; /* Adjust the color as needed */
+    margin-right: 10px;
+  }
+  
+  .duration {
+    font-weight: normal;
+    color: #555; /* Adjust the color as needed */
+    white-space: nowrap; /* Prevents the duration from wrapping */
+  }
+  
+  /* Add additional styles as needed */
+  

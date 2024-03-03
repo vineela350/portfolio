@@ -1,0 +1,66 @@
+
+  .project-logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .project-details h3,
+  .project-details p,
+  .project-details ul {
+    margin-left: 120px; /* Adjust this value to align with the start of the text */
+  }
+
+
+.projects-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-entry {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 20px; /* Space between project entries */
+    grid-template-columns: auto 1fr;
+    gap: 20px; /* space between image and text */
+    
+  }
+  
+  .project-logo {
+    width: 100px; /* Adjust as needed */
+    margin-right: 20px;
+    margin-top: 70px;
+  }
+
+  .code-button {
+    display: inline-block;
+    margin-left: 10px; /* Adjust space between the title and the button */
+    padding: 5px 10px;
+    border: none;
+    background-color: #a1a3a4; /* Example blue color, adjust as needed */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .code-button:hover {
+    background-color: #0056b3; /* Darker blue on hover, adjust as needed */
+  }
+  
+  /* Icon specific styles if needed */
+  .code-button svg {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  
+  

@@ -1,0 +1,56 @@
+/* Education.css */
+.education-page {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .education-section {
+    clear: both;
+    background-color: #fff; /* Adjust the color to match your layout */
+    border: 1px solid #ccc; /* Adjust the color to match your layout */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .education-section h2 {
+    color: #800000; /* Adjust the color to match your layout */
+    margin-bottom: 10px;
+  }
+  
+  .education-section p {
+    margin: 5px 0;
+  }
+  
+  .education-section ul {
+    list-style-type: none; /* Removes the default list styling */
+    padding: 0;
+  }
+  
+  .education-section ul li:before {
+    content: '•';
+    color: #800000; /* Adjust the bullet color to match your layout */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .syracuse-university-logo {
+    margin-top: 15px;
+    float: left; /* Aligns the image to the left */
+    margin-right: 20px; /* Adds some space between the image and the text */
+    width: 130px; /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio of the image */
+  }
+  
+  .osmania-university-logo {
+    float: left; /* Aligns the image to the left */
+    margin-right: 30px; /* Adds some space between the image and the text */
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio of the image */
+  }
+ 
+ 
+  

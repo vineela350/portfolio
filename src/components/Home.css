@@ -1,0 +1,75 @@
+/* Home.css */
+.homepage-container {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+
+ 
+  
+  
+  .content-section {
+    flex-grow: 1;
+    max-width: 60%; /* or a specific pixel value */
+    margin-right: auto;
+  }
+
+  .content-section p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  
+  .profile-pic {
+    width: 200px; /* Adjust based on your preference */
+    height: 200px; /* Adjust based on your preference */
+    border-radius: 50%; /* This will make the image round */
+    margin-right: 50px;
+    margin-left: 50px;
+    object-fit: cover; 
+    margin-top: 20px;
+    transition: transform 0.5s ease;
+  }
+  
+ 
+  
+  .profile-pic:hover {
+    transform: scale(1.1); /* Zooms in the picture to 110% of its size */
+  }
+  
+  .about-section {
+    flex-grow: 1;
+    padding: 0 20px; /* Adjust padding as necessary */
+  }
+  
+  .links-section a {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px; /* This will make the links look like buttons */
+    color: white; /* Adjust text color as necessary */
+    background-color: #dca081; /* Adjust background color as necessary */
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .links-section {
+    animation: fadeIn 2s ease-out;
+  }
+  
+
+  
+  .page-break {
+    border: 0; /* Removes the default border */
+    height: 2px; /* Sets the height of the horizontal line */
+    background-color: #b6b1b1; /* Change the color to match your design */
+    margin-top: 50px; /* Space above the line */
+    margin-bottom: 20px; /* Space below the line */
+  }
+  /* Add more styling as per your design requirements */
+  

@@ -1,0 +1,64 @@
+/* NavigationMenu.css */
+
+.navigation-menu {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center; /* Centers the menu items horizontally */
+    padding: 10px 0; /* Adjust the padding to control the height of the navbar */
+    background-color: #dca081; /* Replace with the actual color code */
+    border-bottom: 5px solid #dca081; /* Replace with the actual border color code */
+  }
+
+
+  
+  .navigation-menu a:hover,
+  .navigation-menu a:focus {
+    color: black;
+    transform: scale(1.2);
+  }
+  
+
+ 
+  .navigation-menu a {
+    text-decoration: none;
+    color: #333; /* Replace with the actual color code */
+    margin: 0 15px; /* Adjust spacing between links */
+    padding: 5px 10px;
+    font-size: 1rem; /* Adjust the font size as needed */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+  }
+  
+  /* Add a class for the round profile image */
+  .profile-pic {
+    width: 250px; /* Adjust width as necessary */
+    height: 250px; /* Adjust height to maintain aspect ratio */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: cover; /* This ensures the image covers the area without stretching */
+  }
+  
+  /* Other styles for your homepage */
+  .home-content {
+    background-color: #FBFCFC ; /* Replace with the actual color code */
+    color: #17202A ; /* Replace with the actual text color code */
+    /* Add more styling for the layout as per your design requirements */
+  }
+  
+  /* Style for buttons like 'MY RESUME' and 'GITHUB' */
+  .button {
+    background-color: #dca081; /* Replace with the actual button color code */
+    color: #FBFCFC; /* Replace with the actual text color code */
+    border: none;
+    border-radius: 20px; /* This gives the button rounded corners */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    margin: 10px; /* Adjust the margin as needed */
+    cursor: pointer;
+  }
+  
+  /* Add responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .navigation-menu {
+      flex-direction: column; /* Stack the menu items vertically on small screens */
+    }
+  }
+  

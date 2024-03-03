@@ -1,0 +1,26 @@
+/* Skills.css */
+.skills-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list span {
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #000; /* Black underline */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
